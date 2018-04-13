@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.camer.client.fragments.MapFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="395dp"
+        android:id="@id/map">
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="395dp"
+        android:id="@+id/eventData">
+        <Space android:layout_height="match_parent"
+            android:layout_width="75dp" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="{fa-android}"
+            android:id="@id/icon" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Click on Marker to see Event Details"
+            android:id="@+id/eventtext"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</FrameLayout>
